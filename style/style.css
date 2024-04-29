@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style:none;
+}
+.container{
+    max-width: 1124px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.nav_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list{
+    display: flex;
+}
+.link{
+    margin-right: 20px;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFF;
+    font-family: sans-serif;
+}
